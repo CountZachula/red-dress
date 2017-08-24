@@ -30,10 +30,6 @@ module RedDress
     end
 
     def upload_routes
-      # Upload in batch for this Sentinel instance.
-      @processed_routes.each do |processed_route|
-        upload_route(processed_route)
-      end
     end
 
     private
