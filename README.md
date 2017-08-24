@@ -1,4 +1,9 @@
-# Usage
+## Installation
+```
+gem 'red_dress'
+```
+
+## Usage
 ```
 RedDress.passphrase = ''
 RedDress.upload_all_routes
@@ -10,7 +15,7 @@ sentinel.get_routes
 sentinel.upload_routes
 ```
 
-# Test
+## Test
 ```
 rspec spec
 ```
