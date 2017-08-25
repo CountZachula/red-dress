@@ -61,7 +61,7 @@ module RedDress
     end
 
     def route_ids_distinct
-      @routes.map { |route| route['route_id'] }.uniq.sort unless @routes.is_nil?
+      @routes.map { |route| route['route_id'] }.uniq.sort unless @routes.nil?
     end
 
     def route_group_by_route_id(id)
